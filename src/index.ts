@@ -1,7 +1,7 @@
-
-
-
 export function handler(name:string) {
-    console.log(`Hello ${name}`);
+    console.log(handlerHelper(name));
 } 
 
+export function handlerHelper(name:string){
+    return `Hello ${name}`
+}
